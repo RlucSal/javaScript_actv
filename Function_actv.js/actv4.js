@@ -24,6 +24,9 @@ Implement customFilter that iterates over an array and applies the callback func
 Use customFilter to filter out even numbers.
 Use customFilter to filter out numbers greater than 10. */
 
+
+
+
 function customFilter(array, callback){
 
 let result = [];
@@ -37,9 +40,7 @@ for (let i= 0; i< array.length; i++){
 }
 return result; 
 
-
 }
-
 
 const numbers = [ 3,6,7,10,32,45,58,75,97,127,254];
 
