@@ -6,6 +6,4 @@ function reverseString (str){
 
 }
 
-const originalString = "hello";
-const reversedString = reverseString (originalString);
-console.log(reversedString);
+console.log (reverseString("hello"));
