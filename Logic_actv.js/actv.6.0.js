@@ -1,0 +1,1 @@
+/*Write a function findMax that returns the largest number in a given array.*/
