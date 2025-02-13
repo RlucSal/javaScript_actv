@@ -9,5 +9,4 @@ function averageArray (array){
 };
 
 let  numbers =  [ 1,3,5,6,7,8,4,5,67,89,56,98];
-
 console.log(averageArray(numbers));
