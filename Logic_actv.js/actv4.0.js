@@ -3,10 +3,12 @@
 
 function averageArray (array){
     let sum  =0;
+
     for (let i = 0; i<array.length; i++){
-    (sum += array[i]/(array.length)); }
-    return sum;
+    sum += array[i];
+}
+    return sum /array.length; 
 };
 
-let  numbers =  [ 1,3,5,6,7,8,4,5,67,89,56,98];
+let  numbers =  [ 1,3,5,6,7,8,4,5,67,89,350,98];
 console.log(averageArray(numbers));
