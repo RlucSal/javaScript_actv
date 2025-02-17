@@ -25,8 +25,6 @@ Use customFilter to filter out even numbers.
 Use customFilter to filter out numbers greater than 10. */
 
 
-
-
 function customFilter(array, callback){
 
 let result = [];
